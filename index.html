@@ -1,1 +1,18 @@
-<h1>Questa è una prova!</h1>
+---
+title: Home
+layout: home
+---
+
+
+<!-- home page -->
+<ul>
+	{% for affix in site.home %}
+	<li>
+		<article class="affix">
+			<!-- affix in home page -->
+			{{ affix.content | markdownify }}
+		</article>
+	</li>
+	{% endfor %}
+</ul>
+
