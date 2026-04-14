@@ -58,3 +58,8 @@
     </mfrac>
   </mrow>
 </math>
+
+
+<math display="block" class="tml-display" style="display:block math;">
+  <mi class="mathscr">𝒫</mi>
+</math>
